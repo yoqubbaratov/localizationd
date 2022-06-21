@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
                       backgroundColor: MaterialStateProperty.all(Colors.green),
                     ),
                     onPressed: () {
-                      context.setLocale(Locale('en', 'US'));
+                      context.setLocale(const Locale('en', 'US'));
                     },
                     child: const Text(
                       "Englis",
@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
                       backgroundColor: MaterialStateProperty.all(Colors.red),
                     ),
                     onPressed: () {
-                      context.setLocale(Locale('kor', 'KO'));
+                      context.setLocale(const Locale('kor', 'KO'));
                     },
                     child: const Text(
                       "Korean",
@@ -67,7 +67,7 @@ class _HomePageState extends State<HomePage> {
                       backgroundColor: MaterialStateProperty.all(Colors.blue),
                     ),
                     onPressed: () {
-                      context.setLocale(Locale('jpn', 'JA'));
+                      context.setLocale(const Locale('jpn', 'JA'));
                     },
                     child: const Text(
                       "Japanese",
